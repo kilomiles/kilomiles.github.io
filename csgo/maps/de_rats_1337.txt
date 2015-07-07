@@ -1,0 +1,19 @@
+De_rats_1337 - Bomb-Defuse
+
+Counter-Terrorists: Prevent Terrorists
+from bombing water tap.
+Team members must defuse any bombs 
+that threaten targeted area.
+
+Terrorists: The Terrorist carrying the
+C4 must destroy the water tap. 
+
+Other Notes: There is one water tap 
+in the mission.
+
+
+
+Credits:
+Map made by SkyDusH, assistance by Deamon.
+Special thx to creator of models I've used.
+(No idea what's his name, thx anyway)
