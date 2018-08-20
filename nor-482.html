@@ -201,7 +201,7 @@ function initROP()
 		if(t_out!=0){clearTimeout(t_out);}
 		document.getElementById('result').innerHTML=success_msg;
 		logAdd("Triggering exploit....<br>Processing to write to NOR Flash Memory... <br>Please wait, the console will shut down automatically in a few minutes...", log_div);
-		setTimeout(trigger,500,jump_1_addr);
+		trigger(jump_1_addr);
 		
 		console.log(s2hex(usb_fp), log_div);
 		console.log(s2hex(stack_frame), log_div);
