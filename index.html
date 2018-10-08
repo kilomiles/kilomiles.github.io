@@ -1,32 +1,36 @@
-<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
+    <head>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" charset="utf-8">
     <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
     <title> miles gilchrist</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
+    <!-- external css -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-  <body>
-    <div class="content">
-      <center><h1>miles gilchrist</h1></center>
-      <div class="well">
-        <span>
-          <h5>website coming soon</h5><br/>
-          <a href="mailto:g2miles@cdf.toronto.edu" title="email: g2miles@cdf.toronto.edu"><img src="images/email.png" width="35px"/></a><br/>
-          <!-- <hr/><a title="github" href="http://github.com/kilomiles"> <img src="images/github.png" width="52px"/> </a>
-          <a title="curriculum vitae"href="files/cv.pdf"> <img style="margin-left:-5px;"src="images/resume.png" width="69px"/> </a>
-          <a title="email: g2mlies@cdf.toronto.edu" href="mailto:g2mlies@cdf.toronto.edu" target="_top"> <img src="images/email.png" width="38px"/></a> -->
-        </span>
-      </div>
-    </div>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  </body>
+
+    <!-- external js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- custom -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scripts.js"></script>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div id="sidebar">
+                <h1>miles gilchrist</h1>
+                <span>
+                    <p class="tagline">site coming soon</p><br/>
+                    <a class="contact" data-toggle="tooltip" data-placement="auto" title="copy email to clipboard" onclick="setClipboard('.contact', 'g2miles@cdf.toronto.edu')">contact</a><br/>
+                    <!-- <hr/><a title="github" href="http://github.com/kilomiles"> <img src="images/github.png" width="52px"/> </a>
+                    <a title="curriculum vitae"href="files/cv.pdf"> <img style="margin-left:-5px;"src="images/resume.png" width="69px"/> </a>
+                    <a title="email: g2mlies@cdf.toronto.edu" href="mailto:g2mlies@cdf.toronto.edu" target="_top"> <img src="images/email.png" width="38px"/></a> -->
+                </span>
+            </div>
+        </div>
+    </body>
 </html>
