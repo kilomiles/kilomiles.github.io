@@ -1,20 +1,33 @@
 /* START bootstrap over-rides */
 h1 {
-	font-weight: 200 !important;
-	line-height: 0.95 !important;
-    margin-top: .5rem !important;
+	font-weight: 200;
+	line-height: 0.95;
+    margin-top: .5rem;
+	margin-bottom: 1.5rem ;
 }
 /* END bootstrap over-rides */
 
-#sidebar {
-	width: 10%;
-}
-
-.tagline {
-	margin-top: 2rem;
-}
+/*#sidebar {
+	width: 20%;
+}*/
 
 .tooltip {
 	margin-left: 5px;
-	font-size: 11px !important;
+	font-size: 11px;
+}
+
+tagline {
+	font-family: inherit;
+	font-weight: 300;
+}
+
+.links {
+	margin-top: 4%;
+	font-weight: 300;
+}
+
+body {
+	background-image: url(../images/slide.png);
+	background-position: left top;
+	background-size: cover;
 }

@@ -2,14 +2,13 @@ $(function () {
 	$("[data-toggle='tooltip']").tooltip({  })
 })
 
-function setClipboard (element, value) { 
+function setClipboard (element, value, type) { 
 	var copy = $(element);
 	copy.tooltip("hide");
 	var oldValue = copy.html();
-	copy.html("copied");
+	copy.html("&#10003; copied " + type + " to clipboard");
 	copy.css({
-		"color": "limegreen",
-		"font-weight": "500"
+		"color": "limegreen"
 	});
 
 	var tempInput = document.createElement("input");
@@ -23,8 +22,9 @@ function setClipboard (element, value) {
 	setTimeout(function () {	
 		copy.html(oldValue);
 		copy.css({
-			"color": "inherit"
+			"color": "inherit",
+			"font-weight": 300
 		});
-	}, 1200);
+	}, 1500);
 
 }
