@@ -26,6 +26,9 @@ tagline {
 	font-weight: 300;
 }
 
+.links a {
+	color: inherit;
+}
 body {
 	background-image: url(../images/slide.png);
 	background-position: left top;
