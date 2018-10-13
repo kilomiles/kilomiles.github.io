@@ -37,7 +37,7 @@ body {
 }
 
 /* larger devices */
-@media screen and (max-width: 1125px) {
+@media screen and (max-width: 1123px) {
 	body {};
 }
 
