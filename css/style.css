@@ -7,9 +7,9 @@ h1 {
 }
 /* END bootstrap over-rides */
 
-/*#sidebar {
-	width: 20%;
-}*/
+#sidebar {
+	float: left;
+}
 
 .tooltip {
 	margin-left: 5px;
@@ -29,8 +29,24 @@ tagline {
 .links a {
 	color: inherit;
 }
+
 body {
 	background-image: url(../images/slide.png);
 	background-position: left top;
 	background-size: cover;
+}
+
+/* large tablet support */
+@media screen and (max-width: 991px) {
+     
+
+}
+/* big phone/small tablet support */
+@media screen and (max-width: 767px) {
+	body {};
+}
+
+/* mobile support */
+@media screen and (max-width: 479px) {
+	body {};
 }
