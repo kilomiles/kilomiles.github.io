@@ -36,17 +36,17 @@ body {
 	background-size: cover;
 }
 
-/* large tablet support */
-@media screen and (max-width: 991px) {
-     
-
+/* larger devices */
+@media screen and (max-width: 1125px) {
+	body {};
 }
-/* big phone/small tablet support */
+
+/* medium devices */
 @media screen and (max-width: 767px) {
 	body {};
 }
 
-/* mobile support */
+/* smaller devicese */
 @media screen and (max-width: 479px) {
 	body {};
 }
