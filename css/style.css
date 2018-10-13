@@ -36,6 +36,12 @@ body {
 	background-size: cover;
 }
 
+.content {
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
 /* larger devices */
 @media screen and (max-width: 1123px) {
 	body { background-image: none; }
@@ -57,7 +63,7 @@ body {
 /* smaller devicese */
 @media screen and (max-width: 479px) {
 	body { background-image: none; }
-	
+
 	.links {
 		line-height: 2.3;
 	}
