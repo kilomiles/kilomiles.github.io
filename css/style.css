@@ -38,15 +38,15 @@ body {
 
 /* larger devices */
 @media screen and (max-width: 1123px) {
-	body {};
+	body {background-image: none;};
 }
 
 /* medium devices */
 @media screen and (max-width: 767px) {
-	body {};
+	body {background-image: none;};
 }
 
 /* smaller devicese */
 @media screen and (max-width: 479px) {
-	body {};
+	body {background-image: none;};
 }
