@@ -3,12 +3,16 @@ h1 {
 	font-weight: 200;
 	line-height: 0.95;
     margin-top: .5rem;
-	margin-bottom: 1.5rem ;
+	margin-bottom: 1.5rem;
 }
 /* END bootstrap over-rides */
 
 #sidebar {
 	float: left;
+}
+
+#sidebar a {
+	color: black;
 }
 
 .tooltip {
